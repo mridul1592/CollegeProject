@@ -1,0 +1,99 @@
+header{
+    background-color:teal;
+    color:white;
+    text-align:center;
+    font-size:35px;
+    height:50px;
+    width:100%;
+    border-bottom:1px #FFF solid;	
+}
+fieldset{text-align:left;}
+table
+{
+    /*border:1px #333 solid;*/
+    width:100%;	
+}
+table{border-collapse:collapse; margin-bottom:10px;font-size:12px;font-family:Verdana, Geneva, sans-serif}
+table tr th
+{
+    background:url(../images/background.jpg);padding:4px 0;width:-1px;text-align:left;
+
+}
+body
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;	
+}
+.link a:hover{color:#F30}
+.link a:active{color:red}
+.button{opacity:.8;}
+.button:hover{height:16px;opacity:1;}
+.button:active{height:15.9px;width:15.9px;}
+
+
+.field{width:140px;float:left;}
+.bottom_options{text-align:center;margin-left:-15%}
+.bottom_options li{list-style:none}
+.red_error{color:red;font-size:11px}
+.green_success{color:#060;font-size:12px}
+.spnGreen{color:green;font-size:12px;margin:auto}
+
+.odd{background-color:#DDD}
+.even{background-color:#CCC}
+.odd:hover{background-color:#EEE;}
+.even:hover{background-color:#EEE;}
+
+
+.small_form{width:53%;margin:0 auto;text-align:left}
+.admin_options{width:60%;border:none}
+.user_options{width:50%;border:none}
+.table
+{
+    height:550px;
+    width:100%;
+}
+
+.link{
+    background-color:teal;
+    height:40px;
+    width:100%;
+    font-size:30px;
+}
+.link a
+{
+    color:white;	
+}
+.content
+{
+    text-align:center;
+    /*height:600px;/**/
+    width:80%;
+    margin:auto;
+}
+.content td{
+    padding: 2px;
+}
+.footer{
+    background-color:teal;
+    color:white;
+    text-align:center;
+    font-size:35px;
+    height:50px;
+}
+.inputbtn{text-align:center}
+.search
+{
+    float:right;	
+}
+.search li
+{
+    float:left;
+    list-style:none;	
+}
+.list_elements{width:40%;margin:5px auto;text-align:left}
+
+
+#frmLogin{width:50%}
+#frmChangePassword{width:48%;}
+#manage_city{width:45%}
+#add_state{width:45%;}
